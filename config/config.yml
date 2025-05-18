@@ -1,0 +1,19 @@
+data_dir: var
+bin_path: bin
+cluster:
+  - alias: node1
+    http_address: "127.0.0.1:8080"
+    rpc_address: "127.0.0.1:9000"
+  - alias: node2
+    http_address: "127.0.0.1:8081"
+    rpc_address: "127.0.0.1:9001"
+  - alias: node3
+    http_address: "127.0.0.1:8082"
+    rpc_address: "127.0.0.1:9002"
+  - alias: node4
+    http_address: "127.0.0.1:8083"
+    rpc_address: "127.0.0.1:9003"
+  - alias: node5
+    http_address: "127.0.0.1:8084"
+    rpc_address: "127.0.0.1:9004"
+leader: node1
